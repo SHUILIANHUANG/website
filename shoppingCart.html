@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet"/>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/global.css" rel="stylesheet"/>
+    <link href="css/lib/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="head">
+    <div class="top_nvg">
+        <div class="container">
+            <div class="left-div">
+                <ul >
+                    <li><span class="i-truck"></span></li>
+                    <li>上海</li>
+                    <li><span class="i-arr-mark"></span></li>
+                    <li class="currDay">当日达</li>
+                </ul>
+            </div>
+            <div class="right-div">
+                <ul>
+                    <li><a href="#" >登录</a></li>
+                    <li><a href="#">注册有惊喜</a></li>
+                    <li><a href="#">公告</a></li>
+                    <li><a href="#">兑换卡券</a></li>
+                    <li class="phone-download">
+                        <a href="#" ><span class="i-phone"></span>手机田园</a>
+                        <div class="download-cpm">
+                            <div class="arr-up">
+                            </div>
+                            <p class="color-black4 fs-14">选择下载APP的方式</p>
+                            <div class="left-official pull-left i-official">
+                                <!--<img src="images/icons/i-OfficialAccounts.fw.png">-->
+                            </div>
+                            <div class="middle-or pull-left">
+                                <span class="color-black4 fs-12">OR</span>
+                            </div>
+                            <div class="right-download pull-left">
+                                <ul class="pull-left">
+                                    <li class="i-download fs-12">Android</li>
+                                    <li class="i-download fs-12">Iphone</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    <li><a href="#"><span class="i-tel"></span>400-658-1300</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <div class="container">
+            <div class="logo-left pull-left">
+                <span class="i-logo"></span>
+            </div>
+            <i class="icon-img icon-step1"></i>
+            <div class="schedule ">
+                <ul class="clearfix">
+                    <li class="fs-14 color-greed1">我的购物车</li>
+                    <li class="fs-14 color-gray1">确认订单</li>
+                    <li class="fs-14 color-gray1">提交订单</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="container">
+    <div class="midbody">
+       <i class="icon-img icon-shoppingCart"></i><span class="fs-18 color-greed2">我的购物车</span>
+        <span class="left-span fs-14 color-gray2">您当前的配送费用为<span class="fs-18 color-greed2">￥0</span></span>
+        <div class="midbody-header">
+            <div class="pull-left fs-16 color-gray2 goods">商品</div>
+            <div class="pull-left fs-16 color-gray2 standard">规格</div>
+            <div class="pull-left fs-16 color-gray2 price">单价(元)</div>
+            <div class="pull-left fs-16 color-gray2 number ">数量</div>
+            <div class="pull-left fs-16 color-gray2 operate">操作</div>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbdy-center">
+            <ul class="clearfix clearboth">
+                <li class="td-cke">
+                    <div ><input type="checkbox"/></div>
+                </li>
+                <li class="td-goods">
+                    <a href="#"><img class="goods-img" src="images/icons/fungus.png"></a>
+                </li>
+                <li class="td-intro">
+                    <div>
+                        <span class="fs-16 color-gray2">云南小耳鸡</span>
+                        <a class="fs-14 color-greed3" href="#">一亩田加价购</a>
+                    </div>
+                </li>
+                <li class="td-standard">
+                    <span class="fs-16 color-gray2">4KG</span>
+                </li>
+                <li class="td-price">
+                    <span class="fs-16 color-greed2">￥98</span>
+                </li>
+                <li class="td-number">
+                    <i class="icon-img icon-subtract"></i>
+                    <span class="fs-16 color-gray2">1</span>
+                    <i class="icon-img icon-plus"></i>
+                </li>
+                <li class="td-operate">
+                    <span class="fs-16 color-gray2">收藏</span>
+                    <span class="fs-16 color-gray2 pull-right">删除</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="midbody-footer">
+            <div class="clearfix clearboth">
+                <input class="select" type="checkbox"/>
+                <span class="allSelect fs-14 color-gray3">全选</span>
+                <i class="img-del icon-img icon-delete"></i>
+            </div>
+        </div>
+        <div class="midbody-sales" id="midboay-sales-id">
+            <!-- Nav tabs -->
+            <ul class="nav clearfloat" role="tablist" id="exchange">
+                <li role="presentation" class="active"><a href="#exchange99" aria-controls="home" role="tab" data-toggle="tab">满99元换购</a></li>
+                <li role="presentation"><a href="#exchange199" aria-controls="profile" role="tab" data-toggle="tab">满199元换购</a></li>
+                <li role="presentation"><a href="#exchange299" aria-controls="messages" role="tab" data-toggle="tab">满299换购</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active clearfloat" id="exchange99">
+                    <ul class="clearfix clearboth">
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="exchange199">
+                    <ul class="clearfix clearboth">
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="exchange299">
+                    <ul class="clearfix clearboth">
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+                </div>
+
+
+
+
+
+
+        </div>
+
+            <!-- Nav tabs -->
+            <ul class="nav clearfloat" role="tablist" id="browse-interest">
+                <li role="presentation" class="active"><a href="#lately-browse" aria-controls="home" role="tab" data-toggle="tab">满99元换购</a></li>
+                <li role="presentation"><a href="#maybe-interest" aria-controls="profile" role="tab" data-toggle="tab">满199元换购</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content" id="paying-up">
+                <div role="tabpanel" class="tab-pane fade in active clearfloat" id="lately-browse">
+                    <ul class="clearfix clearboth">
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="maybe-interest">
+                    <ul class="clearfix clearboth">
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                            <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                            <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                            <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                            <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                            <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                            <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+
+</div>
+</div>
+<div class="paying-wrap clearfix clearboth fixed-bottom ">
+    <div class="paying clearfix clearboth " id="paying">
+        <div class="pull-left paying-left">
+            <i class="icon-img icon-truck"></i><span class="fs-14 color-greed2">满<span class="fs-14 color-red1">99元</span>免运费哦！</span>
+        </div>
+        <div class="pull-right paying-right" >
+            <ul class="clearfloat">
+                <li><span class="fs-30 color-black5">合计<span class="fs-30 color-greed2">7件</span>商品</span></li>
+                <li>
+                    <table class="tb-price-calc">
+                        <tr class="fs-14 color-black0">
+                            <td>商品总金额</td>
+                            <td></td>
+                            <td>运费</td>
+                            <td></td>
+                            <td>应付运费</td>
+                        </tr>
+                        <tr class="fs-20 color-black0">
+                            <td>￥230</td>
+                            <td>+</td>
+                            <td>￥20</td>
+                            <td>=</td>
+                            <td><span  class=" fs-20 color-greed2">￥250</span></td>
+
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <div class="div-pay">
+                        <a ><span class="fs-14 color-greed2 contiune">继续逛逛<i class="icon-img icon-right"></i></span></a>
+                        <!--<a><div class="pay"><span class="fs-26 color-white1">结算</span></div></a>-->
+                        <input  type="button" value="结算" id="btn-pay">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="midbody">
+   <div class="midbody-sales">
+    <!-- Nav tabs -->
+    <ul class="nav clearfloat" role="tablist" id="add-exchange">
+        <li role="presentation" class="active"><a href="#add-exchange99" aria-controls="home" role="tab" data-toggle="tab">最近浏览过的商品</a></li>
+        <li role="presentation"><a href="#add-exchange-all" aria-controls="profile" role="tab" data-toggle="tab">可能感兴趣的商品</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active clearfloat" id="add-exchange99">
+            <ul class="clearfix clearboth">
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+            </ul>
+            <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="add-exchange-all">
+            <ul class="clearfix clearboth">
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+                <li>
+                    <a href="#"><img src="images/icons/icon-goods-picture.png"></a>
+                    <div><a><span class="fs-14 color-black2">国产新疆大鸭梨</span></a></div>
+                    <div><span class="fs-14 color-greed2 ">甜美多汁</span></div>
+                    <div><span class="fs-14 color-gray4 ">规格：160克</span></div>
+                    <div><span class="fs-14 color-gray4 ">产地：新疆</span></div>
+                    <div><span class="fs-18 color-greed2 ">￥98</span>&nbsp;&nbsp;&nbsp;<span><del class="fs-14 color-gray5">￥109</del></span></div>
+                    <a href="javascript:void(0)" class="btn-add-shopcart"><img src="images/icons/small-shopping-cart.png"></a>
+
+                </li>
+            </ul>
+            <a href="javascript:void(0)" class="ic-more"><i class=" icon-img icon-down"></i></a>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="foot-bottom">
+    <div class="container">
+        <p class="fs-18 color-black3">
+            WebFarmer 1.0 版权所有 © 上海谦盈投资管理有1限公司(沪 ICP 备 09023892号)
+        </p>
+        <img src="images/icons/i-warring.fw.png">
+    </div>
+</div>
+
+
+<script src="js/lib/jquery-1.12.3.min.js"></script>
+<script src="js/lib/bootstrap.js"></script>
+<script>
+  $('#exchange a,#add-exchange a').click(function (e) {
+      e.preventDefault();
+
+      console.log($(this))
+
+      $(this).tab('show')
+  });
+
+var jWindow=$(window);
+    jWindow.scroll(function () {
+        var scrollHeight=jWindow.scrollTop();
+        var screeWidth=jWindow.width();
+        var screeheight=jWindow.height();
+//        var payingHeight=$('#paying').height();
+        var payingHeight=$('#paying-up').offset().top;
+        console.log(payingHeight+':'+scrollHeight);
+        //console.log(scrollHeight);
+        if(scrollHeight>payingHeight)
+        {
+            console.log('remove fixed')
+           $('.paying-wrap').removeClass('fixed-bottom');
+
+        }else {
+
+           $('.paying-wrap').addClass('fixed-bottom');
+
+  }
+
+  });
+  window.onload=function () {
+      jWindow.trigger('scroll')
+  };
+  window.resize=function () {
+      jWindow.trigger('scroll')
+
+    };
+
+</script>
+</body>
+</html>

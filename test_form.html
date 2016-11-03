@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/lib/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+<form id="loginForm">
+
+    <input type="text" name="username" value="Allen" id="name">
+    <input type="password" name="password" value="123" id="pwd">
+
+    <input type="submit" value="提交" id="btnSubmit">
+
+</form>
+<script>
+    $(function () {
+        $('#btnSubmit').click(function (e) {
+//            console.log($('#loginForm').serialize())
+            var name =  $('#name').val();
+            var pwd = $('#pwd').val();
+
+            console.log(name + ":" +pwd)
+
+            e.preventDefault();
+        })
+    })
+</script>
+
+
+</body>
+</html>

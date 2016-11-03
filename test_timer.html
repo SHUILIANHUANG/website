@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+            function fun1() {
+                console.log(222);
+            }
+
+            timer = setTimeout(fun1,2000);
+        }
+
+        function clearTime() {
+//            alert(1);
+//            clearInterval(timer)
+            clearTimeout(timer)
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" onclick="clearTime()">
+</body>
+</html>

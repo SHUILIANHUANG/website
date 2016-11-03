@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/icons.css" rel="stylesheet">
+    <style>
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        a:visited{
+            color: yellow;
+        }
+        a:active{
+            color: #000;;
+        }
+        a:hover{
+            background-color: pink;
+            color: #fff;
+        }
+        #txt:focus{
+            border:3px solid #599c3b;
+        }
+        .price{
+            color: red;
+            display:inline-block;
+        }
+
+        ul,ol{
+            list-style: none;
+            padding: 0;
+            margin:0;
+            /*width:2000px;*/
+            display: block;
+        }
+        li{
+            float: left;
+            border-right:1px solid #ccc ;
+            padding:0 10px;
+        }
+        ul{
+            width:100%;
+        }
+        ul li:last-child{
+            border-right:none;
+        }
+
+    </style>
+</head>
+<body>
+<a href="#">
+    Test
+</a>
+<a href="#">
+    Test2
+</a>
+<a href="#">
+    Test4
+</a>
+<input type="text" id="txt">
+
+<p>价格：<span class="price">￥199</span>11111</p>
+<p>11111111</p>
+
+
+<ul>
+    <li><span class="i-arr-solid"></span>aaa</li>
+    <li>bbb</li>
+</ul>
+
+</body>
+</html>
